@@ -1,0 +1,4 @@
+2022-01-21 18:34:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Wartość za długa dla kolumny "PASSWORD VARCHAR(30)": "'$2a$10$IIy/GKflAWceUmUeEMDhleuMxq.oqrxAuXpxYMMpg9HQJ8JSO3SFa' (60)"
+Value too long for column "PASSWORD VARCHAR(30)": "'$2a$10$IIy/GKflAWceUmUeEMDhleuMxq.oqrxAuXpxYMMpg9HQJ8JSO3SFa' (60)"; SQL statement:
+insert into app_user (id, password, role, username) values (null, ?, ?, ?) [22001-200]
